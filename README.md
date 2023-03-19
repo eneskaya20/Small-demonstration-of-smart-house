@@ -1,7 +1,7 @@
 # Small-demonstration-of-smart-house
 ![image](https://user-images.githubusercontent.com/72800099/226204231-a6c669b9-d6dc-4f43-a560-08d24ec828a7.png)
 
-EXPLANATION
+EXPLANATION 
 It has some sensors to measure rain, fire and light using Stm32l073RZT6 board.
 Operational procedure of the circuit is as follows:
 -When there is no water(rain) coming to the water level sensor, only green LED 
