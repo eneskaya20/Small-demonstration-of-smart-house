@@ -1,7 +1,7 @@
 # Small-demonstration-of-smart-house
 ![image](https://user-images.githubusercontent.com/72800099/226204231-a6c669b9-d6dc-4f43-a560-08d24ec828a7.png)
 
-EXPLANATION 
+## EXPLANATION 
 It has some sensors to measure rain, fire and light using Stm32l073RZT6 board.
 Operational procedure of the circuit is as follows:
 -When there is no water(rain) coming to the water level sensor, only green LED 
@@ -13,7 +13,7 @@ level sensor is not that sensitive. So, mostly red or green LEDs are on.)
 the fire sensor is sensing some flame, buzzer is on with the red LED.
 
 
-DESIGN
+## DESIGN
 In design phase of my circuit, since I didnt take a circuit from internet and put it 
 to the breadboard I had to design a circuit which I could test and implement the 
 sensors I have to the IOC concept. Firstly my plan was to create a simple water 
@@ -27,8 +27,7 @@ output so it was simpler to implement to the circuit. I wrote a few if statement
 and used these buttons as a way to create a buzzer alarm.
 
 ![image](https://user-images.githubusercontent.com/72800099/226204462-d69fba69-724f-44a3-8492-a30f54ce65d6.png)
-
-IOC Pin Layout of the Stm board
+### IOC Pin Layout of the Stm board
 
 In my circuit I used;
 
@@ -51,8 +50,7 @@ In my circuit I used;
 *Stm32L073RZT6 Nucleo-64 Board
 
 ![image](https://user-images.githubusercontent.com/72800099/226204317-ab5cc3ac-5dcc-4a02-8c33-de29a201a6f9.png)
-
-Settings of my ADC module(I only changed Continuous Conversion Mode to On)
+### Settings of my ADC module(I only changed Continuous Conversion Mode to On)
 
 
 
